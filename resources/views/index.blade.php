@@ -174,7 +174,7 @@
                     <p class="text-white">Gotto Job is a free website template for job portals. This layout is based on Bootstrap 5 CSS framework. Thank you for visiting <a href="https://www.tooplate.com" target="_parent">Tooplate website</a>. Images are from <a href="https://www.freepik.com/" target="_blank">FreePik</a> website.</p>
 
                     <div class="custom-border-btn-wrap d-flex align-items-center mt-5">
-                        <a href="about.html" class="custom-btn custom-border-btn btn me-4">Get to know us</a>
+                        <a href="{{ route("about") }}" class="custom-btn custom-border-btn btn me-4">Get to know us</a>
 
                         <a href="#job-section" class="custom-link smoothscroll">Explore Jobs</a>
                     </div>
@@ -340,7 +340,7 @@
                         </div>
 
                         <div class="job-section-btn-wrap">
-                            <a href="job-details.html" class="custom-btn btn">Apply now</a>
+                            <a href="{{ route("job_details") }}" class="custom-btn btn">Apply now</a>
                         </div>
                     </div>
                 </div>
